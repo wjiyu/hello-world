@@ -63,7 +63,7 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
         with:
-          registry: 10.151.11.53:5000
+          registry: https://10.151.11.53:5000
           username: admin
           password: eb5a7c0df3494817845d1fcd21133afa
 
